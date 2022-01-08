@@ -1,17 +1,26 @@
-import Feed from "./components/Feed";
-import SideBar from "./components/SideBar";
-import ConnectBar from "./components/Connect";
-import NavBar from "./components/NavBar";
+import { Route,BrowserRouter as Router, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import BlogsPage from "./pages/Blogs";
+import PortfolioPage from "./pages/Portfolio";
+import ContactPage from "./pages/Contact";
+import NotFound404 from "./pages/404";
+
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <div className="grid grid-cols-1 md:grid-cols-12 h-full gap-4 my-3">
-        <SideBar/>
-        <Feed/>
-        <ConnectBar/>
-      </div>
+       <Router>
+        <div className="App">
+          <Routes>
+            <Route exact path="/" element={<HomePage />} />
+            <Route path="/blogs" element={<BlogsPage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route element={<NotFound404 />} />
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
 }
