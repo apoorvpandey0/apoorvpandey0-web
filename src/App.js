@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Feed from "./components/Feed";
+import SideBar from "./components/SideBar";
+import ConnectBar from "./components/Connect";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <div className="grid grid-cols-1 md:grid-cols-12 h-full gap-4 my-3">
+        <SideBar/>
+        <Feed/>
+        <ConnectBar/>
+      </div>
     </div>
   );
 }
