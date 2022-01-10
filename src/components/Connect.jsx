@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Connect() {
     return (
-    <div class="max-md:col-span-6 col-span-3 mx-3">
+    <div class="max-md:col-span-6 col-span-3 mr-3">
         <div class="card pb-2 grid grid-cols-3">
             <div class="col-span-2 mx-3 my-3 pl-2 ">
                 <div class="font-bold text-gray-600 my-1 text-xl">Apoorv Pandey</div>

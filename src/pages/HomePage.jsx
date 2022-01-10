@@ -3,6 +3,7 @@ import Feed from "../components/Feed";
 import SideBar from "../components/SideBar";
 import ConnectBar from "../components/Connect";
 import NavBar from "../components/NavBar";
+import Footer from '../components/Footer';
 
 export default function HomePage() {
     return (

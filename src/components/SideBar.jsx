@@ -33,7 +33,7 @@ export default function SideBar(props) {
             break;
     }
     return (
-<div class="col-span-3 mr-5 border-b text-right mt-4 flex md:flex-col items-end bg-white max-md:fixed max-md:bottom-0 max-md:w-full max-md:justify-between max-md:px-7">
+<div class="col-span-3 mr-4 border-b text-right mt-4 flex md:flex-col items-end bg-white max-md:fixed max-md:bottom-0 max-md:w-full max-md:justify-between max-md:px-7">
         <Link to='/' className={props.selected==="home"?selectedHome:defaultHome}>
             <h3 class="mr-5 max-md:hidden">Home</h3>
             <svg class = "w-8" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
