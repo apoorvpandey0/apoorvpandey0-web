@@ -6,8 +6,9 @@ export default function Connect() {
         <div class="card pb-2 grid grid-cols-3">
             <div class="col-span-2 mx-3 my-3 pl-2 ">
                 <div class="font-bold text-gray-600 my-1 text-xl">Apoorv Pandey</div>
-                <div class="text-gray-500 my-1 ml-1 text">Flutter/Django Developer</div>
-                <div class="text-gray-600 my-1 text-lg text-clip line-clamp-3">In this blog we'll set up Tailwind CSS v3 with vanilla JS with the help of watch package</div>
+                <div class="text-gray-500 my-1 text">Flutter and Django developer</div>
+                <div class="text-gray-600 my-1 text-lg text-clip line-clamp-3">I’m a 3rd-year engineering student from <a href="http://uitrgpv.ac.in">UIT RGPV Bhopal</a></div>
+                <div class="text-gray-500 my-1 text">Resume: Click here</div>
             </div>
             <img class="object-contain my-2 mr-2 rounded-full overflow-hidden" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=150&q=80" alt="" srcset="" />
         </div>

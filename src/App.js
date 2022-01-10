@@ -4,6 +4,7 @@ import BlogsPage from "./pages/Blogs";
 import PortfolioPage from "./pages/Portfolio";
 import ContactPage from "./pages/Contact";
 import NotFound404 from "./pages/404";
+import BlogsDetailsPage from "./pages/BlogsDetailsPage";
 
 
 
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route path="/blogs" element={<BlogsPage />} />
+            <Route path="/blogs/:id" element={<BlogsDetailsPage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route element={<NotFound404 />} />
